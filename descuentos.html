@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='styledesc.css'>
+    <link rel="stylesheet" href="styleheader.css">
+    <title>Helados Mochi</title>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="Index.html"><img src="img/Mochi5.png"></a></li>
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="Menu.html">MEN&Uacute;</a></li>
+                <li><a href="QUIENES.HTML">QUI&Eacute;NES SOMOS</a></li>
+                <li><a href="calificanos.html">COSTOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li class="links"><a href="descuentos.html">DESCUENTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>¿QUIERES OBTENER DESCUENTOS?</h2>
+        
+            
+            
+            <ul>
+                <li>
+                <h2 class="h2form">Registrate</h2>
+                <form action="">
+                    <label for="nombre">Nombre:</label><b>*</b><br>
+                    <input class="controls" type="text" id="nombre" name="nombre" size="15" maxlength="15" required placeholder="Jorge"><br>
+                    <label for="nombre">Apellido:</label><b>*</b><br>
+                    <input class="controls" type="text" id="apellido" name="apellido" size="20" maxlength="20" required placeholder="Sanchez"><br>
+                    <label for="fecha">Fecha de nacimiento:</label><b>*</b><br>
+                    <input class="controls" type="date" id="fecha" name="fecha" required ><br> 
+                    <label for="sexo">Sexo:</label><b>*</b><br>
+                    <label for="masculino">
+                    <input type="radio" id="masculino" name="sexo" value="masculino" required style="cursor: pointer;">
+                    Masculino</label>
+                    <label for="femenino"><input type="radio" id="femenino" name="sexo" value="femenino" style="cursor: pointer;">
+                    Femenino</label>
+                    <label for="otro"><input  type="radio" id="otro" name="sexo" value="otro" style="cursor: pointer;">
+                    Otro</label> <br><br>
+                    <label for="correo">Correo</label><b>*</b><br>
+                    <input class="controls" type="email" id="correo" name="correo" size="30" maxlength="30" required placeholder="ana@mail.com" required><br>
+                    <label for="telefono">Tel&eacute;fono</label><b>*</b><br>
+                    <input class="controls" type="tel" id="telefono name="telefono size="10" maxlength="10" required placeholder="656-123-4567"><br><br>
+                    <label for="pais">Pa&iacute;s</label><b>*</b><br>
+                    <select class="controls" name="paises" id="paises" style="cursor: pointer;">
+                        <option value="bra">Brazil</option>
+                        <option value="mex" selected>M&eacute;xico</option>
+                        <option value="arg">Argentina</option>
+                        <option value="can">Canada</option>
+                        <option value="otro">Otro pais</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input class="button" type="submit" value="Enviar">
+                    <input class="button" type="reset" value="Borrar todo">
+                </form>
+                </li>
+                <li>
+                <h2 class="h2form">Inicia sesi&oacute;n</h2>
+                <form>
+                    <label for="usuario">Usuario:</label><b>*</b> <br>
+                    <input class="controls" type="text" id="usuario" name="usuario" size="20" maxlength="20" required placeholder="juanito@.com" required><br>
+                    <label for="cont">Contraseña</label><b>*</b> <br>
+                    <input class="controls" type="password" id="cont" name="cont" size="8" maxlength="8" required placeholder="******" required> <br><br>
+                    <input class="button2" type="submit" value="Ingresar"><br><br>
+                    <input  type="checkbox" id="re" name="re" value="re" style="cursor: pointer;">
+                    <label for="re">Recordar usuario</label>
+            
+                </form>
+                </li>
+            </ul>
+        
+    </section>
+    <footer>
+        <p>UNETE A NUESTRAS REDES SOCIALES</p>
+                <button>
+                    <a  href="#"> <b><img src="img/face.png" alt="Facebook"></b> </a>
+                </button>
+                <button style="margin-left: 5%;">
+                    <a  href="#"> <b><img src="img/twitter.png" alt="Twitter"></b> </a>
+                </button>
+                <button style="margin-left: 5%;">
+                    <a  href="#"> <b><img src="img/instagram.png" alt="Instragram"></b> </a>
+                </button>
+                <br><br>
+            <p>&copy;2023 Heladeriamochi.com</p><br>
+    </footer>   
+</body>
+</html>

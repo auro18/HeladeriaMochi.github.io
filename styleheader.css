@@ -1,0 +1,114 @@
+
+body{
+	background-attachment: fixed;
+	background-color: rgb(239, 237, 236);
+    margin-block-start: 0%;
+    margin: 0px;
+    
+}
+
+header{
+    
+    width: 100%;
+    color: cornsilk;
+    text-align: center;
+	background-color: white;
+    margin: 0.5px;
+	margin-block-start: 0%;
+    background-attachment: fixed;
+    
+}
+
+section{
+   
+    animation-duration: 0.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 100%;
+    } to{
+        margin-left: 0% ;
+        width: 100%;
+    }
+}
+ul div li img{
+width: 250px;
+height: 250px;
+}
+
+header img {
+    width: 100px;
+    height: 60px;
+    padding: 0;
+
+}
+
+.links a {
+    color: #df8080;
+}
+
+
+/*GENERAL*/
+nav ul{
+    list-style: none;
+	padding: 0%;
+	margin-left: 2m;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-block-start: 0%;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+nav li{
+    line-height: 3rem;
+    position: relative;
+    
+}
+nav li ul{
+    position: absolute;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+	padding: 1rem 4em; 
+    
+}
+	nav a:hover {
+		color: #19A7CE;
+		transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        
+	}
+nav li ul{
+    display: none;
+}
+nav li:hover ul{
+    display: block;
+}
+
+/*PRIMER NIVEL*/
+nav > ul{
+    background-color: #0081B4;
+    display: table;
+    width: 100%;
+	box-sizing: border-box;
+    
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+nav > ul > li{
+    float: left;
+}
+
+/*2 NIVEL*/
+nav li li{
+    background-color:none;
+    width: 500px;
+}
+nav > ul > li > ul{
+    top: 100%;
+}
+

@@ -1,0 +1,84 @@
+body{
+	margin-block-start: 0%;
+    margin: 0px;
+	background-attachment: fixed;
+	background-color: #F8F4EA;
+}
+
+section{
+	background-color: #F8F4EA;
+}
+
+h1{
+    text-align: center;
+    color: lightcoral;
+    font-size: 5em;
+    margin-bottom: 1em;
+    text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	padding: 20px;
+	font-size: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	
+}
+
+ul div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 5px;
+    margin-bottom: 15px;
+	background-color: white;
+}
+
+div h3{
+    text-align: center;
+    color: lightcoral;
+}
+br{
+    color: lightgrey;
+
+}
+
+footer{
+	background-color:#413F42;
+	text-align: center;
+	color: rgb(244, 178, 178);
+	font-size: 20px;
+	padding: 5px;
+}
+footer button{
+	border: none;
+	background-color: #fff;
+	border-radius: 5px;
+	width: auto;
+	
+}
+
+article a:hover{
+	border-color: lightcoral;
+	color: lightcoral;
+	transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+article a{
+	text-align: center;
+	color:#000;
+	text-decoration: none;
+	background: #fff;
+	border: 1.5px solid #141313;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 15px 25px;
+	cursor: pointer;
+	border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}

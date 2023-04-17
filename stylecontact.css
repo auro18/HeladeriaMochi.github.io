@@ -1,0 +1,85 @@
+
+h1{
+    text-align: center;
+    padding: 30px ;
+    
+    color: lightcoral;
+    font-size: 400%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
+h2{
+    text-align: center;
+    color: rgb(184, 43, 78);
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+    color: rgb(19, 77, 110);
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div a:hover{
+	border-color: lightcoral;
+	color: lightcoral;
+	transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+div a{
+	text-align: center;
+	color:#000;
+	text-decoration: none;
+	background: #fff;
+	border: 1.5px solid #141313;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 15px 25px;
+	cursor: pointer;
+	border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+div a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    padding: 10px;
+    width: auto;
+    
+}
+
+section {
+    background-color: #F8F4EA;
+    padding: 20px;
+}
+article{
+    padding: 20px;
+    margin: 0 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+footer{
+	background-color:#413F42;
+	text-align: center;
+	color: rgb(244, 178, 178);
+	font-size: 20px;
+	padding: 5px;
+}
+footer button{
+	border: none;
+	background-color: #fff;
+	border-radius: 5px;
+	width: auto;
+}
